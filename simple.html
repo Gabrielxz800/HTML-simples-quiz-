@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="icon" type="image/x-icon" href="alphabet-letters-a-b-and-c-svgrepo-com.svg"/>
+
+    </head>
+
+
+    <body>
+
+        <div class="titulo-quiz">
+        <h2>ALFABETIZAÇÃO </h2>
+    </div>
+
+    <div class="Tela-Play-Style" id="TelaPlayJanela">
+        <button class="text-center round-button"  onclick="BotaoPlay()"> <p> JOGAR </p> </button>
+    </div>
+
+    <div class="hidden" id="JanelaNome">
+    <div class="janela-redonda">
+<div class="nome-quiz text-center" id="name-input">
+    <label for="username">
+        <h2>
+            DIGITE SEU NOME COMPLETO!>
+        </h2>
+    </label>
+    <br>
+
+</div class="caixa-nome">
+<imput class="letras-nome" type="text"  id="username">
+</div>
+<br>
+<br>
+
+<button class="text-center btn btn-outline-purple mt-auto" onclick="startQuiz()"> COMEÇAR </button>
+</div>
+</div>
+</div>
+
+<main>
+
+
+<div class="quiz-todo hidden" id="Quiz-Todo">
+
+
+<div class="janela-quiz">
+
+  <div class="text-center" id="quiz" style="display: none;">
+      <div class="question" id="question"></div>
+      <div class="options" id="options">
+
+      </div>
+      <div id="result"></div>
+      <br>
+      <button class="text-center btn btn-outline-purple mt-auto" onclick="nextQuestion()"> AVANÇAR </button>
+  </div>
+
+  <div id="score-screen" style="display: none;">
+
+      <div class="text-center Texto-Resultados-1"> <h2>SUA PONTUAÇÃO</h2> </div>
+      <div class="Texto-Resultados-2" id="score-details"></div>
+  </div>
+</div>
+</div>
+</main>
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+</body>
+
+</html>
+
